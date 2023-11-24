@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 24 Nov 2023 18:07:18 at http://html.bdevs.net/paradox_prev/paradox/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://html.bdevs.net/paradox_prev/paradox/index.html -O1 "C:\My Web Sites\Grafixxi" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:19:14	Warning: 	Retry after error -4 (Incorrect length (276211 Bytes, 300838 expected)) at link html.bdevs.net/paradox_prev/paradox/assets/fonts/fa-duotone-900.ttf (from html.bdevs.net/paradox_prev/paradox/assets/css/fontawesome-pro.css)
+18:19:14	Warning: 	Retry after error -4 (Incorrect length (268478 Bytes, 392136 expected)) at link html.bdevs.net/paradox_prev/paradox/assets/fonts/fa-light-300.woff2 (from html.bdevs.net/paradox_prev/paradox/assets/css/fontawesome-pro.css)
+18:19:14	Warning: 	Retry after error -4 (Incorrect length (266140 Bytes, 429770 expected)) at link html.bdevs.net/paradox_prev/paradox/assets/fonts/fa-light-300.ttf (from html.bdevs.net/paradox_prev/paradox/assets/css/fontawesome-pro.css)
+18:19:25	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/src/js/index.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:25	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/node_modules/gsap/gsap-core.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:25	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/node_modules/gsap/CSSPlugin.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:26	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/true/ (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:26	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/node_modules/jquery/dist/jquery.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:26	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/node_modules/gsap/index.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:26	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/src/js/cursor.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+18:19:26	Error: 	"Not Found" (404) at link html.bdevs.net/paradox_prev/paradox/magnetic.js (from html.bdevs.net/paradox_prev/paradox/assets/js/cursor.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 44 seconds : 347 links scanned, 335 files written (21507287 bytes overall) [14655216 bytes received at 19182 bytes/sec], 11244567 bytes transferred using HTTP compression in 193 files, ratio 31%, 6.3 requests per connection
+(8 errors, 3 warnings, 0 messages)
