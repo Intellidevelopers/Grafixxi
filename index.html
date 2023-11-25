@@ -1408,6 +1408,18 @@ script.innerHTML = JSON.stringify({
 document.head.appendChild(script);
 
 </script>
+<script>
+  const canonicalLink = document.createElement('link');
+canonicalLink.rel = 'canonical';
+canonicalLink.href = 'https://grafixxi.vercel.app/index.html';
+document.head.appendChild(canonicalLink);
+
+const robotsMetaTag = document.createElement('meta');
+robotsMetaTag.name = 'robots';
+robotsMetaTag.content = 'index, follow';
+document.head.appendChild(robotsMetaTag);
+
+</script>
 
 <!-- Start cookieyes banner --> 
 <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/130576c21e183279db4412c9/script.js"></script> 
